@@ -6,7 +6,7 @@ module.exports = function(app){
     res.json(friendsData)
 });
 
- app.post("/api/survey", function(req, res) {
+ app.post("/api/friends", function(req, res) {
       friendsData.push(req.body);
       // res.json(friendsData)
 
@@ -15,7 +15,7 @@ module.exports = function(app){
     var newFriendScores= req.body.scores;
     
     //loop through each exising friend to compare scores
-    for (i=0;i<friendsData.length-1;i++) {
+    for (i=0;i<friendsData.length;i++) {
         var scores = friendsData[i].scores;
 
         //loop through each score for the friend in this position    

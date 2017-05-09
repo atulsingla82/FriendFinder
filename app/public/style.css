@@ -1,0 +1,16 @@
+body {
+    background-image: url("friends.png");
+    background-size: 90%
+    
+}
+.jumbotron {
+    background-color: transparent;
+    color: white;
+    font-family: 'Love Ya Like A Sister', cursive;
+    
+}
+
+h2{
+	font-family: 'Josefin Sans', sans-serif;
+}
+

@@ -33,6 +33,8 @@ app.listen(PORT, function() {
 });
 
 
+app.use(express.static(__dirname + '/public'));
+
 
 
 
